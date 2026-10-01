@@ -1,48 +1,212 @@
 import { useState } from 'react'
+import AJ1 from '../assets/images/AJ1.png';
+import AJ2 from '../assets/images/AJ2.png';
+import AJ3 from '../assets/images/AJ3.png';
+import AJ4 from '../assets/images/AJ4.png';
+import AJ5 from '../assets/images/AJ5.png';
+import AJ6 from '../assets/images/AJ6.png';
+import AJ7 from '../assets/images/AJ7.png';
+import AJ8 from '../assets/images/AJ8.png';
+import AJ9 from '../assets/images/AJ9.png';
+import AJ10 from '../assets/images/AJ10.png';
+import AJ11 from '../assets/images/AJ11.png';
+import AJ12 from '../assets/images/AJ12.png';
+import AJ13 from '../assets/images/AJ13.png';
+import AJ14 from '../assets/images/AJ14.png';
+import AJ15 from '../assets/images/AJ15.png';
+import AJ16 from '../assets/images/AJ16.png';
+import AJ17 from '../assets/images/AJ17.png';
+import AJ18 from '../assets/images/AJ18.png';
 
 const institutions = [
-  {
-    src: 'https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?w=600&h=400&fit=crop&auto=format',
-    name: 'Action Cancer Hospital',
-    location: 'Paschim Vihar, New Delhi',
-    role: 'Consultant & DrNB Registrar — Medical Oncology',
-    span: 'col-span-2',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=400&h=400&fit=crop&auto=format',
-    name: 'Primus Superspeciality Hospital',
-    location: 'New Delhi',
-    role: 'Senior Consultant — Medical Oncology',
-    span: '',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=400&h=280&fit=crop&auto=format',
-    name: 'Delhi State Cancer Institute (DSCI)',
-    location: 'West Branch, Delhi',
-    role: 'Senior Resident → Clinical Oncology In-charge',
-    span: '',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400&h=280&fit=crop&auto=format',
-    name: 'Manipal Hospital',
-    location: 'India',
-    role: 'Fellowship in Advanced Radiation Techniques',
-    span: '',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&h=320&fit=crop&auto=format',
-    name: 'Harvard Medical School',
-    location: 'Boston, MA (Executive Education)',
-    role: 'Advanced Management of Oncological Disease',
-    span: 'col-span-2',
-  },
-  {
-    src: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=280&fit=crop&auto=format',
-    name: 'Adesh Charitable Cancer Hospital',
-    location: 'Muktsar',
-    role: 'Consultant — Radiation Oncology',
-    span: '',
-  },
+{
+  src: AJ1,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ2,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ3,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ4,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ5,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ6,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ7,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ8,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ9,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ10,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ11,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ12,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ13,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ14,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ15,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ16,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ17,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},
+{
+  src: AJ18,
+  name: '',
+  location: '',
+  role: '',
+  span: '',
+},  // {
+  //   src: speechImage,
+  //   name: 'Action Cancer Hospital',
+  //   location: 'Paschim Vihar, New Delhi',
+  //   role: 'Consultant & DrNB Registrar — Medical Oncology',
+  //   span: '',
+  // },
+  // {
+  //   src: 'https://images.unsplash.com/photo-1586773860418-d37222d8fce3?w=400&h=400&fit=crop&auto=format',
+  //   name: 'Primus Superspeciality Hospital',
+  //   location: 'New Delhi',
+  //   role: 'Senior Consultant — Medical Oncology',
+  //   span: '',
+  // },
+  // {
+  //   src: 'https://images.unsplash.com/photo-1587351021759-3e566b6af7cc?w=400&h=280&fit=crop&auto=format',
+  //   name: 'Delhi State Cancer Institute (DSCI)',
+  //   location: 'West Branch, Delhi',
+  //   role: 'Senior Resident → Clinical Oncology In-charge',
+  //   span: '',
+  // },
+  // {
+  //   src: 'https://images.unsplash.com/photo-1516549655169-df83a0774514?w=400&h=280&fit=crop&auto=format',
+  //   name: 'Manipal Hospital',
+  //   location: 'India',
+  //   role: 'Fellowship in Advanced Radiation Techniques',
+  //   span: '',
+  // },
+  // {
+  //   src: 'https://images.unsplash.com/photo-1538108149393-fbbd81895907?w=600&h=320&fit=crop&auto=format',
+  //   name: 'Harvard Medical School',
+  //   location: 'Boston, MA (Executive Education)',
+  //   role: 'Advanced Management of Oncological Disease',
+  //   // span: 'col-span-2',
+  // },
+  // {
+  //   src: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=280&fit=crop&auto=format',
+  //   name: 'Adesh Charitable Cancer Hospital',
+  //   location: 'Muktsar',
+  //   role: 'Consultant — Radiation Oncology',
+  //   span: '',
+  // },
+  // {
+  //   src: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=280&fit=crop&auto=format',
+  //   name: 'Adesh Charitable Cancer Hospital',
+  //   location: 'Muktsar',
+  //   role: 'Consultant — Radiation Oncology',
+  //   span: '',
+  // },
+  // {
+  //   src: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=280&fit=crop&auto=format',
+  //   name: 'Adesh Charitable Cancer Hospital',
+  //   location: 'Muktsar',
+  //   role: 'Consultant — Radiation Oncology',
+  //   span: '',
+  // },
+  // {
+  //   src: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=400&h=280&fit=crop&auto=format',
+  //   name: 'Adesh Charitable Cancer Hospital',
+  //   location: 'Muktsar',
+  //   role: 'Consultant — Radiation Oncology',
+  //   span: '',
+  // },
 ]
 
 export default function Gallery() {
@@ -77,7 +241,7 @@ export default function Gallery() {
                 />
               </div>
               {/* Overlay */}
-              <div
+              {/* <div
                 className={`absolute inset-0 bg-navy/80 flex flex-col justify-end p-5 transition-opacity duration-300 ${
                   hovered === i ? 'opacity-100' : 'opacity-0'
                 }`}
@@ -87,7 +251,7 @@ export default function Gallery() {
                 </span>
                 <p className="text-white text-base font-serif font-semibold mb-0.5">{inst.name}</p>
                 <p className="text-xs text-slate-200">{inst.role}</p>
-              </div>
+              </div> */}
             </div>
           ))}
         </div>

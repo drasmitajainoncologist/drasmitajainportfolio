@@ -1,7 +1,7 @@
 const treatments = [
   {
     image: 'https://images.unsplash.com/photo-1579684385127-1ef15d508118?w=480&h=280&fit=crop&auto=format',
-    alt: 'Medical Oncology Systemic Therapy',
+    alt: 'Chemotherapy, Targeted Therapy & Immunotherapy',
     name: 'Chemotherapy, Targeted Therapy & Immunotherapy',
     description:
       'Systemic cancer management using chemotherapy, targeted therapy, immunotherapy and evidence-based treatment regimens.',
@@ -29,7 +29,7 @@ const treatments = [
   },
   {
     image: 'https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?w=480&h=280&fit=crop&auto=format',
-    alt: 'Cancer Survivorship',
+    alt: 'Cancer Survivorship & Quality of Life',
     name: 'Cancer Survivorship & Quality of Life',
     description:
       'Long-term monitoring, post-treatment care, and addressing survivorship issues to improve overall quality of life.',
@@ -40,6 +40,27 @@ const treatments = [
     name: 'Supportive & Palliative Oncology',
     description:
       'Compassionate symptom management, patient education, and supportive care throughout the patient’s treatment journey.',
+  },
+   {
+    image: 'https://images.unsplash.com/photo-1581595219315-a187dd40c322?w=480&h=280&fit=crop&auto=format',
+    alt: 'Cancer Screening & Early Detection',
+    name: 'Cancer Screening & Early Detection',
+    description:
+      'Regular, risk-based screening helps detect cancer early. Get personalised screening guidance for Breast, Cervical, Lung, and Head & Neck cancers based on your individual risk factors.',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?w=480&h=280&fit=crop&auto=format',
+    alt: 'Cancer Prevention Vaccines',
+    name: 'Cancer Prevention Vaccines',
+    description:
+      'Vaccination is a powerful tool for cancer prevention. We provide personalised guidance on HPV and Hepatitis B vaccines to help reduce the risk of HPV-related cancers and liver cancer.',
+  },
+  {
+    image: 'https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=480&h=280&fit=crop&auto=format',
+    alt: 'Oral Metronomic Therapy',
+    name: 'Oral Metronomic Therapy',
+    description:
+      'Oral metronomic therapy uses low-dose oral medicines given regularly to help control cancer while reducing treatment burden. Treatment is personalised based on your cancer type, treatment goals, and individual needs.',
   },
 ]
 
